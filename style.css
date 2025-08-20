@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #d49053;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #a2744c;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 16px;
+  padding: 30px 20px 30px 20px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.mohtava {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  background-color: #d09c82;
+  padding: 20px 15px 20px 15px;
+  gap: 25px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+button {
+  width: 60px;
+  padding: 10px 8px 10px 8px;
+  border-radius: 10px;
+}
